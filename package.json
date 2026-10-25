@@ -1,0 +1,21 @@
+{
+  "name": "dex-seo-snippets",
+  "version": "0.1.0",
+  "description": "Small, dependency-free technical SEO tools from the Dex SEO developer series.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "sitemap-audit": "node sitemap-audit/audit.mjs",
+    "demo": "node sitemap-audit/demo-site.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexseo/dex-seo-snippets.git"
+  },
+  "homepage": "https://github.com/dexseo/dex-seo-snippets"
+}
